@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  li {
+    color: #fff;
+    list-style-type: none;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .tag-item {
+    border: 1px solid #f3aa4e;
+    background-color: transparent;
+    padding: 8px 20px;
+    border-radius: 25px;
+  }
+  .active-tag {
+    background-color: #f3aa4e;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 25px;
+    
+  }
+}

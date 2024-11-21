@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    font-family: roboto;
+    min-width: 100vw;
+  }
+  .left-container {
+    background-color: #131213;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+  }
+  .right-container {
+    background-color: #000000;
+    min-width: 65vw;
+    padding: 30px;
+  }
+  h1 {
+    font-size: 28px;
+    color: #f3aa4e;
+    font-weight: 500;
+  }
+  form {
+    width: 28vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  input {
+    padding: 10px;
+    outline: none;
+  }
+  select {
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  .option {
+    background-color: blue;
+    border-radius: 0px;
+  }
+  button {
+    background-color: #f3aa4e;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin-top: 40px;
+    align-self: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    color: #fff;
+    font-size: 23px;
+  }
+  .right-container div {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    color: #f1f5f9;
+  }
+  .tasks-container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .li-item {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: #131213;
+  }
+  .li-item p {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .tag-btn {
+    margin: 0px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    color: #000000;
+    background-color: #f3aa4e;
+    padding: 10px 25px;
+  }
+}
